@@ -1,0 +1,11 @@
+This is a test document for FastAPI presentation generation.
+
+We expect six slides to be created from this text.
+
+Key points:
+- FastAPI handles file uploads
+- Python extracts text from DOCX
+- Gemini generates slide outlines
+- python-pptx builds the final file
+
+Conclusion: the pipeline works end-to-end.
