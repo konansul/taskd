@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+
+# Environment files
+.env
+*.env
+
+# Generated data
+backend/generated_presentation*.pptx
+backend/presentation_*.pptx
+backend/presentations_storage/
+
+# Tests generated files
+tests/generated_*.pptx
+tests/output_test.pptx
+tests/generated_presentation_temp.pptx
