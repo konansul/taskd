@@ -14,14 +14,14 @@ try:
 except ImportError:
     pass  # python-dotenv not installed, use system environment variables
 
-from utils.file_reader import read_file
-from utils.prompt import get_presentation as build_presentation_from_text, generate_image_hf
-from utils.slide import parse_gpt_response, generate_pptx
-from utils.storage import (
+from backend.utils.file_reader import read_file
+from backend.utils.prompt import get_presentation as build_presentation_from_text, generate_image_hf
+from backend.utils.slide import parse_gpt_response, generate_pptx
+from backend.utils.storage import (
     save_presentation, load_presentation, update_presentation,
     delete_presentation, list_presentations, generate_presentation_id
 )
-from utils.pdf_export import create_pdf_from_slides
+from backend.utils.pdf_export import create_pdf_from_slides
 
 app = FastAPI(
     title="Presentation Assistant API",
